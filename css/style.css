@@ -6,11 +6,14 @@ html,body {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
 }
-h2 {
+h2, .bold {
     font-weight: 900;
 }
 .hero-body .container {
   max-width: 700px;
+}
+.container {
+    padding:10px;
 }
 .hero-body .title {
   color: hsl(192,17%,99%) !important;
@@ -28,6 +31,9 @@ h2 {
 .pad {
     padding-bottom: 40px;
 }
+.pad-top {
+    padding-top: 40px;
+}
 .open {
     background-image: url(/images/background.jpg);
     background-position: center center;
@@ -39,4 +45,19 @@ h2 {
 .heroLink {
     text-decoration: none;
     color: white;
+}
+
+
+a {
+    color:hsl(0, 0%, 29%);
+    text-decoration: none;
+}
+
+a:hover {
+   color:#286D8D;
+}
+
+.rule {
+    background-color: #286D8D;
+    height:3px;
 }
