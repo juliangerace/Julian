@@ -34,7 +34,7 @@ h2, .thick {
         background-repeat:  no-repeat;
         background-attachment: fixed;
         background-size:  cover;
-        background-color: #999;
+        background-color: red;
 }
 
 .container {
@@ -55,4 +55,10 @@ a:hover {
 }
 .heroLink:hover {
     color:darkgray;
+}
+.y {
+    color:white;
+}
+.y:hover {
+    color: #204056;
 }
