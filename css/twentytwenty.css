@@ -43,10 +43,11 @@
   z-index: 0;
   overflow: hidden;
   position: relative;
+    max-width: 500px;
   -webkit-user-select: none;
   -moz-user-select: none; }
   .twentytwenty-container img {
-    max-width: 100%;
+    max-width: 500px;
     position: absolute;
     top: 0;
     display: block; }
