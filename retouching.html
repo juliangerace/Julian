@@ -15,6 +15,8 @@
     <script src="js/jquery.event.move.js" type="text/javascript"></script>
     <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nanogallery2.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/nanogallery2.woff.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -39,7 +41,7 @@
                             <a class="navbar-item y" href="index.html">
                 Home
               </a>
-                            <a class="navbar-item y" href="#">
+                            <a class="navbar-item y" href="work.html">
                 Work
               </a>
                             <a class="navbar-item y" href="/index.html#contact">
@@ -56,16 +58,43 @@
     </section>
     <section>
         <div class="container">
-            
-                <div class="column" id="container1"><img src="images/mgm-before.jpg" /><img src="images/mgm-after.jpg" /></div>
-            
+            <div>
+                <h2 class="is-size-2 pad">MGM National Harbor</h2></div>
+            <div id="container1" style="max-width:800px;display: block;margin-left: auto;margin-right: auto;"><img src="images/mgm-before.jpg" /><img src="images/mgm-after.jpg" /></div>
+            <div>&nbsp;</div>
+            <div id="container2" style="max-width:800px;display: block;margin-left: auto;margin-right: auto;"><img src="images/pond-before.jpg" /><img src="images/pond-after.jpg" /></div>
+            <div style="padding-top:20px;" id="mgm" data-nanogallery2='{
+        "thumbnailWidth": "auto XS100 SM130",
+        "thumbnailHeight": "200 XSauto SMauto",
+        "thumbnailBorderVertical": 0,
+        "thumbnailBorderHorizontal": 0,
+        "thumbnailAlignment": "center",
+        "thumbnailGutterWidth": 4,
+        "thumbnailGutterHeight": 4
+      }'>
 
+                <a href="images/mgm/d1s1-compressor.jpg" data-ngthumb="images/mgm/d1s1-thumb.jpg"></a>
+                <a href="images/mgm/d1s2-compressor.jpg" data-ngthumb="images/mgm/d1s2-thumb.jpg"></a>
+                <a href="images/mgm/d1s3-compressor.jpg" data-ngthumb="images/mgm/d1s3-thumb.jpg"></a>
+                <a href="images/mgm/d1s4-compressor.jpg" data-ngthumb="images/mgm/d1s4-thumb.jpg"></a>
+                <a href="images/mgm/d4s3-compressor.jpg" data-ngthumb="images/mgm/d4s3-thumb.jpg"></a>
+                <a href="images/mgm/d4s4-compressor.jpg" data-ngthumb="images/mgm/d4s4-thumb.jpg"></a>
+                <a href="images/mgm/d6s1-compressor.jpg" data-ngthumb="images/mgm/d6s1-thumb.jpg"></a>
+                <a href="images/mgm/d6s4-compressor.jpg" data-ngthumb="images/mgm/d6s4-thumb.jpg"></a>
+                <a href="images/mgm/d7s1-compressor.jpg" data-ngthumb="images/mgm/d7s1-thumb.jpg"></a>
+                <a href="images/mgm/d8s1-compressor.jpg" data-ngthumb="images/mgm/d8s1-thumb.jpg"></a>
+                <a href="images/mgm/d9s1-compressor.jpg" data-ngthumb="images/mgm/d9s1-thumb.jpg"></a>
+                <a href="images/mgm/d9s2-compressor.jpg" data-ngthumb="images/mgm/d9s2-thumb.jpg"></a>
+
+                ...
+            </div>
         </div>
 
 
 
     </section>
-
+    <script src="js/jquery.nanogallery2.core.min.js"></script>
+    <script src="js/jquery.nanogallery2.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/wow.js"></script>
     <script>
@@ -74,6 +103,9 @@
     <script>
         $(function() {
             $("#container1").twentytwenty();
+        });
+        $(function() {
+            $("#container2").twentytwenty();
         });
     </script>
 </body>

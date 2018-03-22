@@ -20,45 +20,7 @@
   top: 50%;
   margin-top: -1.5px; }
 
-.twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%; }
 
-.twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  transition-duration: 0.5s; }
-
-.twentytwenty-before-label, .twentytwenty-after-label {
-  -webkit-transition-property: opacity;
-  -moz-transition-property: opacity;
-  transition-property: opacity; }
-
-.twentytwenty-before-label:before, .twentytwenty-after-label:before {
-  color: white;
-  font-size: 13px;
-  letter-spacing: 0.1em; }
-
-.twentytwenty-before-label:before, .twentytwenty-after-label:before {
-  position: absolute;
-  background: rgba(255, 255, 255, 0.2);
-  line-height: 38px;
-  padding: 0 20px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px; }
-
-.twentytwenty-horizontal .twentytwenty-before-label:before, .twentytwenty-horizontal .twentytwenty-after-label:before {
-  top: 50%;
-  margin-top: -19px; }
-
-.twentytwenty-vertical .twentytwenty-before-label:before, .twentytwenty-vertical .twentytwenty-after-label:before {
-  left: 50%;
-  margin-left: -45px;
-  text-align: center;
-  width: 90px; }
 
 .twentytwenty-left-arrow, .twentytwenty-right-arrow, .twentytwenty-up-arrow, .twentytwenty-down-arrow {
   width: 0;
@@ -99,27 +61,7 @@
     -moz-box-sizing: content-box;
     box-sizing: content-box; }
 
-.twentytwenty-before-label {
-  opacity: 0; }
-  .twentytwenty-before-label:before {
-    content: attr(data-content); }
 
-.twentytwenty-after-label {
-  opacity: 0; }
-  .twentytwenty-after-label:before {
-    content: attr(data-content); }
-
-.twentytwenty-horizontal .twentytwenty-before-label:before {
-  left: 10px; }
-
-.twentytwenty-horizontal .twentytwenty-after-label:before {
-  right: 10px; }
-
-.twentytwenty-vertical .twentytwenty-before-label:before {
-  top: 10px; }
-
-.twentytwenty-vertical .twentytwenty-after-label:before {
-  bottom: 10px; }
 
 .twentytwenty-overlay {
   -webkit-transition-property: background;
@@ -133,12 +75,6 @@
       opacity: 1; }
     .twentytwenty-overlay:hover .twentytwenty-before-label {
       opacity: 1; }
-
-.twentytwenty-before {
-  z-index: 20; }
-
-.twentytwenty-after {
-  z-index: 10; }
 
 .twentytwenty-handle {
   height: 38px;
