@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julian Gerace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,900" rel="stylesheet">
+    <!-- Bulma Version 0.6.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/nanogallery2.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/nanogallery2.woff.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="hero is-bold open pad animated fadeInUp">
+        <div class="hero-head">
+            <nav class="navbar is-transparent">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+
+                        </a>
+                        <span class="navbar-burger burger has-text-white" data-target="navbarMenu">
+              <span></span>
+                        <span></span>
+                        <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu open">
+                        <div class="navbar-end">
+                            <a class="navbar-item y" href="index.html">
+                Home
+              </a>
+                            <a class="navbar-item y" href="work.html">
+                Work
+              </a>
+                            <a class="navbar-item y" href="/index.html#contact">
+                Contact
+              </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <h1 class="title is-size-1 has-text-centered">Photography</h1>
+        </div>
+    </section>
+    <section>
+        
+<div class="container animated fadeInUp">
+    <div><a href="work.html"class="pad">Work </a></div>
+    <div style="padding-top:20px;" id="photo" data-nanogallery2='{
+        "thumbnailWidth": "300 XS200 SM230",
+        "thumbnailHeight": "auto",
+        "thumbnailBorderVertical": 0,
+        "thumbnailBorderHorizontal": 0,
+        "thumbnailAlignment": "center",
+        "thumbnailGutterWidth": 4,
+        "thumbnailGutterHeight": 4
+      }'>
+        
+        <a href="images/photo/aileen.jpg" data-ngthumb="images/photo/aileen-thumb.jpg"></a>
+       <a href="images/photo/braxton.jpg" data-ngthumb="images/photo/braxton-thumb.jpg"></a>
+        <a href="images/photo/john.jpg" data-ngthumb="images/photo/john-thumb.jpg"></a>
+        <a href="images/photo/king.jpg" data-ngthumb="images/photo/king-thumb.jpg"></a>
+        <a href="images/photo/library.jpg" data-ngthumb="images/photo/library-thumb.jpg"></a>
+        <a href="images/photo/zach.jpg" data-ngthumb="images/photo/zach-thumb.jpg"></a>
+        <a href="images/photo/kara.jpg" data-ngthumb="images/photo/kara-thumb.jpg"></a>
+        <a href="images/photo/kenny.jpg" data-ngthumb="images/photo/kenny-thumb.jpg"></a>
+        <a href="images/photo/dean.jpg" data-ngthumb="images/photo/dean-thumb.jpg"></a>
+        <a href="images/photo/alex.jpg" data-ngthumb="images/photo/alex-thumb.jpg"></a>
+        <a href="images/photo/keifer.jpg" data-ngthumb="images/photo/keifer-thumb.jpg"></a>
+        <a href="images/photo/kevin.jpg" data-ngthumb="images/photo/kevin-thumb.jpg"></a>
+        
+        
+    </div>
+    </div>
+    </section>
+    <script src="js/jquery.nanogallery2.core.min.js"></script>
+    <script src="js/jquery.nanogallery2.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        (function() {
+            var burger = document.querySelector('.burger');
+            var menu = document.querySelector('#' + burger.dataset.target);
+            burger.addEventListener('click', function() {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        })();
+    </script>
+</body>
+
+</html>

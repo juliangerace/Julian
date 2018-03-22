@@ -41,7 +41,7 @@
                             <a class="navbar-item y" href="index.html">
                 Home
               </a>
-                            <a class="navbar-item y" href="work.html">
+                            <a class="navbar-item y" href="#">
                 Work
               </a>
                             <a class="navbar-item y" href="/index.html#contact">
@@ -123,6 +123,16 @@
         $(function() {
             $("#container4").twentytwenty();
         });
+    </script>
+    <script>
+        (function() {
+            var burger = document.querySelector('.burger');
+            var menu = document.querySelector('#' + burger.dataset.target);
+            burger.addEventListener('click', function() {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        })();
     </script>
 </body>
 

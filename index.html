@@ -32,13 +32,13 @@
                     </div>
                     <div id="navbarMenu" class="navbar-menu open">
                         <div class="navbar-end">
-                            <a class="navbar-item y" href="#">
+                            <a class="navbar-item y" href="index.html">
                 Home
               </a>
-                            <a class="navbar-item y" href="work.html">
+                            <a class="navbar-item y" href="#">
                 Work
               </a>
-                            <a class="navbar-item y" href="#contact">
+                            <a class="navbar-item y" href="/index.html#contact">
                 Contact
               </a>
                         </div>
@@ -169,6 +169,16 @@
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        (function() {
+            var burger = document.querySelector('.burger');
+            var menu = document.querySelector('#' + burger.dataset.target);
+            burger.addEventListener('click', function() {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        })();
     </script>
 </body>
 
